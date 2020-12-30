@@ -34,7 +34,7 @@ tempTranspose = #(define-music-function (parser location music)
     ragged-last-bottom = ##f
     left-margin = 1\cm
 right-margin = 1\cm
-print-all-headers = ##t
+print-all-headers = ##f
 #(include-special-characters)
 
 	

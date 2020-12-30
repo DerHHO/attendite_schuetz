@@ -324,9 +324,9 @@ posauneIIINotenAttenditeSchuetz =  \relative c {
 posauneIVNotenAttenditeSchuetz = \relative f, {
   \clef "bass" 
   \globalAttenditeSchuetz
-  r1 r2 f2^\markup { Fehler! } | % 2
-  c'2 ~ c4 c4 a2 r4 f'4 ~ | % 3
-  f8 [ f8 ] bes,4 s1. | % 4
+  R1*2 |
+  r1 f2 c'2 ~ | % 2
+  c4 c4 a2 r4 f'4. f8 bes,4  | % 4
   c1 f,1 ~ \mBreak | % 5
 
   f1 f4 f4 f4 g4 | % 6
@@ -894,12 +894,12 @@ scoreMitAussetzungAttenditeSchuetz = {
   >>
 }
 
-%{***Arbeitspartitur
+%***Arbeitspartitur
 \score {
   \scoreAttenditeSchuetz
   \layout {}
   % To create MIDI output, uncomment the following line:
   \midi {\tempo 4 = 120 }
 }
-***Arbeitspartitur%}
+%Arbeitspartitur***
 

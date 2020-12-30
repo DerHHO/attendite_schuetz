@@ -1,4 +1,3 @@
-Noten/dynamicparams.ly 
 Ausgaben/
 #Partituren_und_Stimmen/
 *.pdf
@@ -10,3 +9,4 @@ tex/qrcode.tex
 tex/qrcodes.tex
 *.aux
 *.log
+Noten/dynamicparams.ly 

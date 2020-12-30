@@ -1,5 +1,5 @@
 \version "2.18.2" 
- copyrightAttenditeSchuetz = \markup { \center-column {  \line { \tiny { Oberlaaer Musicalienverlag } } } } 
+ copyrightAttenditeSchuetz = \markup { \center-column {  \line { \tiny { } } } } 
  persoenlichesExemplarAttenditeSchuetz = \markup {  } 
  archivNummerAttenditeSchuetz = \markup {   }
 beistrichUntertitelAttenditeSchuetz = \markup {", "}
