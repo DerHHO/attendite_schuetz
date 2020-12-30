@@ -1,0 +1,16 @@
+{
+	"Musikverlag":{
+		"dnote":0,
+		"dalteration":0,
+		"Print_Archivnummer":false,
+		"Copyright":"Oberlaaer Musicalienverlag",
+		"Seperate_Einzelstimmen":false,
+		"Merge_Stimmen":false
+	},
+	"Altenburg":{
+		"Print_Archivnummer":true,
+		"Copyright":"Oberlaaer Musicalienverlag",
+		"Seperate_Einzelstimmen":false,
+		"Merge_Stimmen":false
+	}
+}
