@@ -4,7 +4,7 @@
 		"Global_Staff_Size":15,
 		"Force_Titelseite":false,
 		"Paper":{
-			"print-all-headers":"##t"
+			"print-all-headers":"##f"
 		}
 	},
 	"Partitur_transponierend":{
@@ -12,7 +12,7 @@
 		"Global_Staff_Size":15,
 		"Force_Titelseite":false,
 		"Paper":{
-			"print-all-headers":"##t"
+			"print-all-headers":"##f"
 		}
 	}
 }
