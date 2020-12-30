@@ -1,6 +1,6 @@
 Noten/dynamicparams.ly 
 Ausgaben/
-Partituren_und_Stimmen/
+#Partituren_und_Stimmen/
 *.pdf
 *.midi
 mv.log
