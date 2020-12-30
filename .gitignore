@@ -1,0 +1,12 @@
+Noten/dynamicparams.ly 
+Ausgaben/
+Partituren_und_Stimmen/
+*.pdf
+*.midi
+mv.log
+tex/Instrument.tex
+tex/dynamicparams.tex
+tex/qrcode.tex
+tex/qrcodes.tex
+*.aux
+*.log
