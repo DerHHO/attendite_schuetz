@@ -5,11 +5,19 @@
 		"Print_Archivnummer":false,
 		"Copyright":"Oberlaaer Musicalienverlag",
 		"Seperate_Einzelstimmen":false,
-		"Merge_Stimmen":false
+		"Merge_Stimmen":false,
+		"Active":false
 	},
 	"Altenburg":{
 		"Print_Archivnummer":true,
 		"Copyright":"Oberlaaer Musicalienverlag",
+		"Seperate_Einzelstimmen":false,
+		"Merge_Stimmen":false,
+		"Active":false
+	},
+	"cpdl":{
+		"Print_Archivnummer":true,
+		"Copyright":"",
 		"Seperate_Einzelstimmen":false,
 		"Merge_Stimmen":false
 	}

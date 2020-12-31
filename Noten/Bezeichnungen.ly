@@ -1,6 +1,6 @@
 \version "2.18.2"
 
-komponist = \markup { Heinrich Schütz }
+komponist = \markup { Heinrich Schütz (1585–1672)}
 widmung = \markup {  }
 arrangeur = \markup {  }
 untertitel = \markup {  }

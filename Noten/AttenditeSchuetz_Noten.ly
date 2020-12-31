@@ -5,7 +5,6 @@
 
 \header {
   poet = "Ps 78 (77)"
-  %composer =  "James Gibb editions"
   title = "Attendite, popule meus legem meam"
   composer = "Heinrich Schütz (1585–1672)"
   opus = "SWV 270"
@@ -15,24 +14,6 @@
 mBreak = { }
 ficta = { \once \set suggestAccidentals = ##t }
 
-%#(set-global-staff-size 16)
-%{\paper {
-
-  left-margin = 1.3\cm
-  right-margin = 1.3\cm
-  between-system-space = 0.0\cm
-  page-top-space = 0.9\cm
-  indent = 1.6\cm
-  short-indent = 0.9\cm
-}
-\layout {
-  \context {
-    \Score
-    skipBars = ##t
-    autoBeaming = ##f
-  }
-}%}
-
 ablaufzeileAttenditeSchuetz = { }
 
 globalAttenditeSchuetz = {
@@ -41,7 +22,7 @@ globalAttenditeSchuetz = {
 }
 
 posauneINotenAttenditeSchuetz =  \relative c' {
-  \clef "bass" 
+  \clef "bass"
   \globalAttenditeSchuetz
   c2 f2. f4 e2 | % 2
   R1*2 | % 3
@@ -142,7 +123,7 @@ posauneINotenAttenditeSchuetz =  \relative c' {
 }
 
 posauneIINotenAttenditeSchuetz =  \relative f {
-  \clef "bass" 
+  \clef "bass"
   \globalAttenditeSchuetz
   r1 f2 c'2 ~ | % 2
   c4 c4 a2 r1 | % 3
@@ -228,8 +209,7 @@ posauneIINotenAttenditeSchuetz =  \relative f {
   r1 a'1 | % 94
   a2 a2 g1 | % 95
   f1 fis8 [ d16 e16 ] fis16 [ g16 a16 fis16 ] g4 f4 \mBreak | % 96
-  e4 e4 c8 [ a16 bes16 ] c16 [ d16 e16 c16 ] d8 [ bes16 c16 ] d16 [ e16
-  f16 d16 ] es2 ~ | % 97
+  e4 e4 c8 [ a16 bes] c16 [ d e c ] d8 [ bes16 c] d16 [ e f d ] es2 ~ | % 97
   es4 d4 c4. f8 f1 | % 98
   r2 d2 d2. d4 \mBreak | % 99
   c1 b2 b8 [ g16 a16 ] b16 [ a16 b16 c16 ] | \barNumberCheck #100
@@ -241,7 +221,7 @@ posauneIINotenAttenditeSchuetz =  \relative f {
 }
 
 posauneIIINotenAttenditeSchuetz =  \relative c {
-  \clef "bass" 
+  \clef "bass"
   \globalAttenditeSchuetz
   R1*2 | % 2
   c2 f2. f4 e2 | % 3
@@ -322,7 +302,7 @@ posauneIIINotenAttenditeSchuetz =  \relative c {
 }
 
 posauneIVNotenAttenditeSchuetz = \relative f, {
-  \clef "bass" 
+  \clef "bass"
   \globalAttenditeSchuetz
   R1*2 |
   r1 f2 c'2 ~ | % 2
@@ -506,40 +486,40 @@ bassNotenAttenditeSchuetz =  \relative c {
 }
 
 bassTextAttenditeSchuetz =  \lyricmode {
-  
+
   At -- ten -- di -- "te," po -- pu -- le me -- "us," at -- ten -- di --
   "te," po -- pu -- le me -- "us," le -- gem me -- am in -- cli -- na
   -- te au -- rem ve -- stram in ver -- ba o -- ris su -- i, in -- cli
   -- na -- te au -- rem ve -- stram, in ver -- ba o -- ris,
-  
-  in ver -- ba o -- ris me -- i. 
+
+  in ver -- ba o -- ris me -- i.
   A -- pe -- ri -- am in pa -- ra -- bo
-  -- lis os me -- um lo -- quat pro -- po -- si -- ti -- o -- nes 
-  ab in -- i -- ti -- o, a -- pe -- ri -- am 
-  in pa -- ra -- bo -- lis os me -- um 
-  lo -- quar pro -- po -- si -- ti -- o -- nes 
-  ab i -- ni -- ti -- o, 
-  lo -- quar pro -- po -- si -- ti -- o -- nes 
-  ab -- i -- ni -- ti -- o, i -- ni -- ti -- o. 
-  Quan -- ta au -- di -- vi -- mus 
-  et co -- gno -- vi -- mus e -- a, 
-  quan -- ta au -- di -- vi -- mus et 
-  co -- gno -- vi -- mus e -- a, 
+  -- lis os me -- um lo -- quat pro -- po -- si -- ti -- o -- nes
+  ab in -- i -- ti -- o, a -- pe -- ri -- am
+  in pa -- ra -- bo -- lis os me -- um
+  lo -- quar pro -- po -- si -- ti -- o -- nes
+  ab i -- ni -- ti -- o,
+  lo -- quar pro -- po -- si -- ti -- o -- nes
+  ab -- i -- ni -- ti -- o, i -- ni -- ti -- o.
+  Quan -- ta au -- di -- vi -- mus
+  et co -- gno -- vi -- mus e -- a,
   quan -- ta au -- di -- vi -- mus et
-  co -- gno -- vi -- mus e -- a, 
-  et pa -- tres no -- stri, 
+  co -- gno -- vi -- mus e -- a,
+  quan -- ta au -- di -- vi -- mus et
+  co -- gno -- vi -- mus e -- a,
+  et pa -- tres no -- stri,
   et pa -- tres no -- stri,
   nar -- ra -- ve -- runt, nar -- ra -- ve -- runt,
   nar -- ra -- -- ve -- runt no -- bis,
   et pa -- tres no -- stri, et pa -- tres no -- stri, et pa -- tres no --
-  stri, nar -- ra -- ve -- runt no -- bis, 
+  stri, nar -- ra -- ve -- runt no -- bis,
   nar -- ra -- ve -- runt no -- bis,
   nar -- ra -- ve -- runt no -- bis,
   nar -- ra -- ve -- runt,
   nar -- ra -- ve -- runt, nar -- ra -- ve -- runt
-  no -- bis, et pa -- tres no -- stri 
+  no -- bis, et pa -- tres no -- stri
   nar -- ra --
-  ve -- runt no -- bis, 
+  ve -- runt no -- bis,
   nar -- ra -- ve -- runt no -- bis,
   et pa -- tres no -- stri, nar -- ra -- ve --
   runt,´ nar -- ra -- ve -- runt
@@ -863,10 +843,19 @@ continuoSystemAttenditeSchuetz = {
 aussetzungSystemAttenditeSchuetz = {
   <<
     \new PianoStaff <<
+      \tag #'partitur {
+          \set PianoStaff.instrumentName = "Continuo"
+          \set PianoStaff.shortInstrumentName = "B.c."
+        }
       \new Staff <<
         \new Voice { \aussetzungNotenAttenditeSchuetz }
       >>
-      \continuoSystemAttenditeSchuetz
+      \new Staff
+      <<
+        
+        \new Voice = "continuoNotenAttenditeSchuetz" { \continuoNotenAttenditeSchuetz }
+        \new FiguredBass \bezifferungAttenditeSchuetz
+      >>
     >>
   >>
 }
@@ -896,10 +885,16 @@ scoreMitAussetzungAttenditeSchuetz = {
 
 %***Arbeitspartitur
 \score {
-  \scoreAttenditeSchuetz
+  \scoreMitAussetzungAttenditeSchuetz
   \layout {}
-  % To create MIDI output, uncomment the following line:
   \midi {\tempo 4 = 120 }
+
+}
+\paper {
+  left-margin = 1.3\cm
+  right-margin = 1.3\cm
+  short-indent = 0.9\cm
+  indent = 3\cm
 }
 %Arbeitspartitur***
 

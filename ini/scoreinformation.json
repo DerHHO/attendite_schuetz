@@ -4,7 +4,12 @@
 		"Global_Staff_Size":15,
 		"Force_Titelseite":false,
 		"Paper":{
-			"print-all-headers":"##f"
+			"print-all-headers":"##f",
+			"left-margin":"1.3\\cm",
+			"right-margin":"1.3\\cm",
+			"short-indent":"0.9\\cm",
+			"indent":"3\\cm",
+			"ragged-last-bottom":"##f"
 		}
 	},
 	"Partitur_transponierend":{
@@ -12,7 +17,38 @@
 		"Global_Staff_Size":15,
 		"Force_Titelseite":false,
 		"Paper":{
-			"print-all-headers":"##f"
+			"print-all-headers":"##f",
+			"left-margin":"1.3\\cm",
+			"right-margin":"1.3\\cm",
+			"short-indent":"0.9\\cm",
+			"indent":"3\\cm",
+			"ragged-last-bottom":"##f"
+		}
+	},
+	"Partitur_klingend_mit_Aussetzung":{
+		"Label":"Partitur mit Continuoaussetzung",
+		"Global_Staff_Size":15,
+		"Force_Titelseite":false,
+		"Paper":{
+			"print-all-headers":"##f",
+			"left-margin":"1.3\\cm",
+			"right-margin":"1.3\\cm",
+			"short-indent":"0.9\\cm",
+			"indent":"3\\cm",
+			"ragged-last-bottom":"##f"
+		}
+	},
+	"Partitur_transponierend_mit_Aussetzung":{
+		"Label":"Partitur mit Continuoaussetzung",
+		"Global_Staff_Size":15,
+		"Force_Titelseite":false,
+		"Paper":{
+			"print-all-headers":"##f",
+			"left-margin":"1.3\\cm",
+			"right-margin":"1.3\\cm",
+			"short-indent":"0.9\\cm",
+			"indent":"3\\cm",
+			"ragged-last-bottom":"##f"
 		}
 	}
 }

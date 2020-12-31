@@ -1,5 +1,5 @@
 \version "2.18.2" 
- copyrightAttenditeSchuetz = \markup { \center-column {  \line { \tiny { } } } } 
+ copyrightAttenditeSchuetz = \markup { \center-column {  \line { \tiny {  } } } } 
  persoenlichesExemplarAttenditeSchuetz = \markup {  } 
  archivNummerAttenditeSchuetz = \markup {   }
 beistrichUntertitelAttenditeSchuetz = \markup {", "}
@@ -14,3 +14,5 @@ continuoQRAttenditeSchuetz = \markup {  }
 bassgruppeQRAttenditeSchuetz = \markup {  }
 partiturklingendQRAttenditeSchuetz = \markup {  }
 partiturtransponierendQRAttenditeSchuetz = \markup {  }
+partiturklingendmitAussetzungQRAttenditeSchuetz = \markup {  }
+partiturtransponierendmitAussetzungQRAttenditeSchuetz = \markup {  }
